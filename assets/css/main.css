@@ -7,6 +7,11 @@
     z-index: 3;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .container {
     margin-top: var(--header-height);
     background-color: #f5f5f5;
@@ -75,7 +80,7 @@
 .header__social-item,
 .header__social-item-link {
     font-size: 1.4rem;
-    color: var(--white-color);
+    color: var(--black-color);
     text-decoration: none;
     font-weight: 300;
 }
@@ -110,7 +115,7 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    background-color: #f86d5b;
+    background-color: #0c0707;
 }
 
 .header__social-list {
@@ -187,7 +192,7 @@
     right: 0;
     top: calc(100% + 6px);
     background-color: var(--white-color);
-    border: 1px solid #d3d3d3;
+    border: 1px solid #1f0d0d;
     color: var(--text-color);
     flex-direction: column;
     transform-origin: calc(100% - 32px) top;
@@ -255,7 +260,7 @@
 .header__notification-register {
     width: 50%;
     text-decoration: none;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(5, 1, 1);
     border: none;
     border-right: 1px;
     color: var(--black-color);
@@ -264,7 +269,7 @@
 .header__notification-login {
     width: 50%;
     text-decoration: none;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(14, 10, 10);
     border: none;
     color: var(--black-color);
 }
@@ -498,7 +503,9 @@
 }
 
 .header__logo {
-    width: 20rem;
+    width: 100px;
+    height: 75px;
+    
 }
 
 .header__logo-link {
