@@ -1201,6 +1201,7 @@ img{
 
 .section__banner-category {
     margin-top: 2rem;
+    padding-left: 370px;
     height: fit-content;
     display: flex;
     margin-bottom: 2rem;
